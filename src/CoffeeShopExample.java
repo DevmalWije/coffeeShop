@@ -1,7 +1,7 @@
 public class CoffeeShopExample {
     public static void main(String[] args) {
         int numCustomers = 10;
-        int numBaristas = 10;
+        int numBaristas = 5;
         CoffeeShop coffeeShop = new CoffeeShop(5);
         Thread[] threads = new Thread[numCustomers + numBaristas];
         // Creating Customer threads
